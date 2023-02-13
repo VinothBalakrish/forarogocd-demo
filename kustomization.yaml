@@ -5,4 +5,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: quay.io/vinothb/tekton-hello-world
-  newName: quay.io/vinothb/tekton-hello-world:7ecc5e7
+  newTag: 7ecc5e7
+  
