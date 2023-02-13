@@ -18,7 +18,7 @@ spec:
       labels:
         app: argocd-deployment
     spec:
-      serviceAccountName: karthi-sa
+      serviceAccountName: vinod-sa
       containers:
       - image: quay.io/vinothb/tekton-hello-world
         name: tekton-argocd
